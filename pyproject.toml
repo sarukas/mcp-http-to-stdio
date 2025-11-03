@@ -1,0 +1,64 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-http-to-stdio"
+version = "0.1.1"
+description = "Bridge utility enabling Claude Desktop to connect to HTTP-based MCP servers via stdio transport"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Agentic Enterprise"}
+]
+maintainers = [
+    {name = "Agentic Enterprise"}
+]
+keywords = [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "claude-desktop",
+    "anthropic",
+    "http",
+    "stdio",
+    "bridge",
+    "proxy",
+    "json-rpc",
+    "protocol-bridge"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Networking",
+    "Topic :: Communications",
+    "Topic :: Internet :: Proxy Servers",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "requests>=2.32.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/agentic-enterprise/mcp-http-to-stdio"
+Repository = "https://github.com/agentic-enterprise/mcp-http-to-stdio"
+"Bug Tracker" = "https://github.com/agentic-enterprise/mcp-http-to-stdio/issues"
+Documentation = "https://github.com/agentic-enterprise/mcp-http-to-stdio#readme"
+
+[project.scripts]
+mcp-http-to-stdio = "mcp_http_to_stdio:main"
+
+[tool.setuptools]
+packages = ["mcp_http_to_stdio"]
+
+[tool.setuptools.package-data]
+mcp_http_to_stdio = ["py.typed"]
