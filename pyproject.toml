@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mcp-http-to-stdio"
-version = "0.1.0"
+version = "0.1.1"
 description = "Bridge utility enabling Claude Desktop to connect to HTTP-based MCP servers via stdio transport"
 readme = "README.md"
 license = {text = "MIT"}
