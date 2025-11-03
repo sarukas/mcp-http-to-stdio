@@ -6,7 +6,7 @@ via stdio transport.
 """
 
 __version__ = "0.1.1"
-__author__ = "Agentic Enterprise"
+__author__ = "sarukas"
 __license__ = "MIT"
 
 from .bridge import main

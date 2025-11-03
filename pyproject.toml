@@ -9,10 +9,10 @@ description = "Bridge utility enabling Claude Desktop to connect to HTTP-based M
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
-    {name = "Agentic Enterprise"}
+    {name = "sarukas"}
 ]
 maintainers = [
-    {name = "Agentic Enterprise"}
+    {name = "sarukas"}
 ]
 keywords = [
     "mcp",
@@ -49,10 +49,10 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/agentic-enterprise/mcp-http-to-stdio"
-Repository = "https://github.com/agentic-enterprise/mcp-http-to-stdio"
-"Bug Tracker" = "https://github.com/agentic-enterprise/mcp-http-to-stdio/issues"
-Documentation = "https://github.com/agentic-enterprise/mcp-http-to-stdio#readme"
+Homepage = "https://github.com/sarukas/mcp-http-to-stdio"
+Repository = "https://github.com/sarukas/mcp-http-to-stdio"
+"Bug Tracker" = "https://github.com/sarukas/mcp-http-to-stdio/issues"
+Documentation = "https://github.com/sarukas/mcp-http-to-stdio#readme"
 
 [project.scripts]
 mcp-http-to-stdio = "mcp_http_to_stdio:main"
