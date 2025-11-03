@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "myally-workspace": {
+      "command": "mcp-http-to-stdio",
+      "args": [
+        "--url",
+        "http://localhost:8081/share/mcp"
+      ],
+      "env": {
+        "ALLY_SHARE_KEY": "ally_share_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+      }
+    }
+  }
+}
